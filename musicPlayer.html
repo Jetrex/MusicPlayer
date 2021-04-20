@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="musicPlayer.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div id="background">
+    <h1>The playlist</h1>
+    
+    <input type="radio" data-genre="all" name="genre" >
+    <label for="all">All</label>
+    <input type="radio" data-genre="classical"  name="genre">
+    <label for="Classical">Classical</label>
+    <input type="radio" data-genre="rock"  name="genre" >
+    <label for="Rock">Rock</label>
+    <input type="radio" data-genre="new wave"  name="genre">
+    <label for="New Wave">New Wave</label>
+
+    <ul id="list">
+        <li class="classical">Antonio Vivaldi - The Four Seasons</li>
+        <li class="classical">Richard Wagner - The Vallkyrie</li>
+        <li class="rock">AC/DC - Thunderstruck</li>
+        <li class="newWave">a-Ha - Take on me</li>
+        <li class="rock">Deep Purple - Smoke on the water</li>
+        <li class="classical">Frederic Chopin - Nocturne No.2</li>
+        <li class="newWave">Blue Monday - New Order</li>
+        <li class="newWave">Transmission - Joy Division</li>
+        <li class="rock">Nirvana - Smells like teen spirit</li>
+        <li class="newWave">A Forest - The Cure</li>
+        <li class="classical">Gustav Holst - The Planets</li>
+    </ul>
+    </div>
+
+    <script src="musicPlayer.js"></script>
+
+</body>
+</html>

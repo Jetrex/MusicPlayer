@@ -1,0 +1,51 @@
+
+#list{
+    list-style: none; /* Remove default bullets */
+  }
+
+  #list li{
+      color: white;
+  }
+  
+ #list li::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    /* color: blue; */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+ }
+
+ #list .classical::before{
+    content: "\2022";
+    color: blue; /* Change the color */
+    
+ }
+
+ #list .rock::before{
+    color: red; /* Change the color */
+ }
+
+ #list .newWave::before{
+    color: pink; /* Change the color */
+    
+ }
+
+ #background{
+     background-color: #474445;
+ }
+
+ h1{
+     color: white;
+ }
+
+ #list .classical:hover{
+    background-color: blue;
+ }
+ 
+ #list .rock:hover{
+    background-color: red;
+ }
+
+ #list .newWave:hover{
+    background-color: pink;
+ }
